@@ -1255,7 +1255,7 @@ a {
   }
 
   .cid-thXKMbTk5w ul.navbar-nav {
-    margin-bottom: 60%;
+    margin-bottom: 50%;
   }
 
   .navbar-collapse-wrapper {
@@ -1685,7 +1685,16 @@ a {
   background-image: url(../../../assets/images/header.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+}
+
+@media (max-width:600px) {
+  .cid-thXKN5Vkvt {
+    background-image: url(../../../assets/images/header-mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .cid-thXKN5Vkvt .mbr-fallback-image.disabled {
