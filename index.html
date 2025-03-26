@@ -59,23 +59,29 @@
           </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-            <li class="nav-item">
-              <a class="nav-link link text-white display-7" href="https://mobiri.se"> DEMO </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link text-white display-7" href="https://mobiri.se"> FEATURE </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link text-white display-7" href="https://mobiri.se"> FAQ </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link text-white display-7" href="https://mobiri.se"> DOCUMENTATION </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link text-white display-7" href="https://mobiri.se"> SUPPORT </a>
-            </li>
-          </ul>
+          <div class="navbar-collapse-wrapper">
+            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+              <li class="nav-item">
+                <a class="nav-link link text-white display-7" href="https://mobiri.se"> DEMO </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link text-white display-7" href="https://mobiri.se"> FEATURE </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link text-white display-7" href="https://mobiri.se"> FAQ </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link text-white display-7" href="https://mobiri.se"> DOCUMENTATION </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link text-white display-7" href="https://mobiri.se"> SUPPORT </a>
+              </li>
+            </ul>
+            <div class="navbar-buttons mbr-section-btn custom-section-btn">
+              <a class="btn btn-black display-7" href="https://mobiri.se">Lorem ipsum</a>
+            </div>
+
+          </div>
         </div>
         <div class="navbar-buttons mbr-section-btn custom-section-btn">
           <a class="btn btn-black display-7" href="https://mobiri.se">Lorem ipsum</a>
@@ -89,7 +95,6 @@
       <div class="row justify-content-center align-items-stretch">
         <div class="col-12 col-lg-7 col-text">
           <div class="text-wrapper">
-            <!-- <h1 class="mbr-section-title mbr-fonts-style display-7">WELCOME TO MY WORLD</h1> -->
             <h1 class="mbr-section-subtitle mbr-fonts-style mb-3 display-3">
               <strong>Lorem ipsum dolor<br>
                 sit amet
@@ -453,7 +458,7 @@
                 <div class="about-module" id="about-module1">
                   <div class="about-module-header">
                     <h2 class="about-module-title display-6">Module 1: Volutpat blandit</h2>
-                    <button class="about-arrow-bitton" type="button">
+                    <button class="about-arrow-bitton" type="button" aria-label="arrow button">
                       <svg class='mobi-mbri_icon about-module-arrow' width='25' height='25' fill="url(#icon-gradient)">
                         <defs>
                         </defs>
@@ -503,7 +508,7 @@
                           fill="url(#icon-gradient)">
                           <defs>
                           </defs>
-                          <use href='./assets/images/icons.svg#icon-down-arrow'>
+                          <use href='./assets/images/icons.svg#icon-down-arrow'></use>
                         </svg>
                       </button>
                       <button class="about-hash-button display-7" data-target="about-hash1-4">Lorem ipsum<span>
@@ -517,11 +522,13 @@
                       </button>
                     </div>
                     <div class="about-hash-content display-7" id="about-hash1-1">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque posuere eros non
-                      finibus. Proin sodales
-                      eleifend leo, eget interdum neque dignissim ornare. Sed venenatis massa sit amet elit fringilla,
-                      eu vulputate dui
-                      lacinia.
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque posuere eros non
+                        finibus. Proin sodales
+                        eleifend leo, eget interdum neque dignissim ornare. Sed venenatis massa sit amet elit fringilla,
+                        eu vulputate dui
+                        lacinia.
+                      </p>
                     </div>
                     <div class="about-hash-content display-7" id="about-hash1-2">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque posuere eros non
@@ -543,13 +550,13 @@
                       eu vulputate dui
                       lacinia. </div>
                   </div>
+
                 </div>
 
                 <div class="about-module" id="about-module2">
                   <div class="about-module-header">
                     <h2 class="about-module-title display-6">Module 2: Volutpat blandit</h2>
-                    <button class="about-arrow-bitton" type="button
-                    ">
+                    <button class="about-arrow-bitton" type="button" aria-label="arrow button">
                       <svg class='mobi-mbri_icon about-module-arrow' width='25' height='25' fill="url(#icon-gradient)">
                         <defs>
                         </defs>
@@ -644,7 +651,7 @@
                 <div class="about-module" id="about-module3">
                   <div class="about-module-header">
                     <h2 class="about-module-title display-6">Module 3: Volutpat blandit</h2>
-                    <button class="about-arrow-bitton" type="button">
+                    <button class="about-arrow-bitton" type="button" aria-label="arrow button">
                       <svg class='mobi-mbri_icon about-module-arrow' width='25' height='25' fill="url(#icon-gradient)">
                         <defs>
                         </defs>
@@ -1990,8 +1997,6 @@
                             ORDER NOW
                           </a>
                         </div>
-                        <!-- <p class="comment-text align-center mbr-fonts-style mb-0 display-7">
-                          Unlimited Revission</p> -->
                       </div>
                     </div>
                   </div>
@@ -2003,74 +2008,6 @@
       </div>
     </div>
   </section>
-
-  <!-- <section data-bs-version="5.1" class="image1 expertm5 cid-thXRNLrZiu" id="aimage1-i">
-    <div class="mbr-overlay" style="opacity: 0; background-color: rgb(33, 36, 40)"></div>
-    <div class="container">
-      <div class="row"></div>
-    </div>
-  </section> -->
-
-  <!-- <section data-bs-version="5.1" class="gallery3 expertm5 cid-thXRijuFis" id="agallery3-f">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-7">VISIT MY PORTFOLIO
-            </h3>
-            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-2">
-              <strong>My Portfolio</strong>
-            </h5>
-          </div>
-        </div>
-      </div>
-      <div class="row card-row justify-content-start">
-        <div class="item features-image col-12 col-md-6 col-lg-4">
-          <div class="item-wrapper">
-            <div class="card-bg"></div>
-            <div class="item-img">
-              <img src="assets/images/gallery4.jpg" alt="Mobirise Website Builder">
-            </div>
-            <div class="card-box">
-              <h5 class="card-title mbr-fonts-style display-7">Vitae nunc</h5>
-              <p class="card-text mbr-fonts-style display-4">
-                <a href="#" class="text-white"> Nec feugiat in fermentum posuere. </a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="item features-image col-12 col-md-6 col-lg-4">
-          <div class="item-wrapper">
-            <div class="card-bg"></div>
-            <div class="item-img">
-              <img src="assets/images/gallery6.jpg" alt="Mobirise Website Builder">
-            </div>
-            <div class="card-box">
-              <h5 class="card-title mbr-fonts-style display-7">Varius duis</h5>
-              <p class="card-text mbr-fonts-style display-4">
-                <a href="#" class="text-white"> Praesent tristique magna sit. </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="item features-image col-12 col-md-6 col-lg-4">
-          <div class="item-wrapper">
-            <div class="card-bg"></div>
-            <div class="item-img">
-              <img src="assets/images/gallery5.jpg" alt="Mobirise Website Builder">
-            </div>
-            <div class="card-box">
-              <h5 class="card-title mbr-fonts-style display-7">Facilisis gravida</h5>
-              <p class="card-text mbr-fonts-style display-4">
-                <a href="#" class="text-white"> Dignissim convallis aenean et tortor. </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <section data-bs-version="5.1" class="people4 expertm5 cid-thXRwvOhXN" id="apeople4-g">
     <div class="container">
@@ -2226,8 +2163,8 @@
                     <div class="contact-item">
                       <p class="card-title mbr-fonts-style display-7">EMAIL</p>
                       <p class="card-text mbr-fonts-style display-7">
-                        <a class="display-7 contact-link" href="mailto:liam@domain.com"
-                          target="_blank">liam@domain.com</a>
+                        <a class="display-7 contact-link" href="mailto:liam@domain.com" target="_blank"
+                          aria-label="Link to email">liam@domain.com</a>
                       </p>
                     </div>
                     <div class="contact-item">
@@ -2241,14 +2178,15 @@
                     <div class="contact-item">
                       <p class="card-title mbr-fonts-style display-7">PHONE</p>
                       <p class="card-text mbr-fonts-style display-7">
-                        <a class="display-7 contact-link" href="tel:1112224321" target="_blank">(111) 222-4321</a>
+                        <a class="display-7 contact-link" href="tel:1112224321" target="_blank"
+                          aria-label="Link to phone">(111) 222-4321</a>
                       </p>
                     </div>
                     <div class="contact-item">
                       <p class="card-title mbr-fonts-style display-7">LOCATION</p>
                       <p class="card-text mbr-fonts-style display-7">
                         <a class="display-7 contact-link" href="https://maps.app.goo.gl/AZuRmkRfZ8nFtnDn8"
-                          target="_blank">Brooklyn,
+                          target="_blank" aria-label="Link to location">Brooklyn,
                           New York 14241</a>
                       </p>
                     </div>
@@ -2265,9 +2203,6 @@
   <section data-bs-version="5.1" class="footer2 expertm5 cid-thXL483li8" once="footers" id="afooter2-2">
     <div class="container-fluid">
       <div class="row">
-        <!-- <div class="col-12">
-          <div class="border-item"></div>
-        </div> -->
         <div class="col-12">
           <div class="copyright-container w-100">
             <p class="mbr-text mb-0 mbr-fonts-style display-7">© Copyright 2030 Mobirise - All Rights
