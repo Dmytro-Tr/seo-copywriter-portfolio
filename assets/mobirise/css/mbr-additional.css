@@ -1222,6 +1222,10 @@ a {
   transition: all 0.5 ease;
 }
 
+.navbar-collapse-wrapper .navbar-buttons {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .menu .navbar-collapse.show {
     position: fixed;
