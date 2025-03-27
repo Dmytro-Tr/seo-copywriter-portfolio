@@ -1255,7 +1255,7 @@ a {
   }
 
   .cid-thXKMbTk5w ul.navbar-nav {
-    margin-bottom: 50%;
+    margin-bottom: 13rem;
   }
 
   .navbar-collapse-wrapper {
@@ -3530,6 +3530,11 @@ select:-webkit-autofill:focus {
   display: none;
 }
 
+.cid-thXP0uH5Zh .carousel-indicators,
+.cid-thXP0uH5Zh .thXP0uH5Zh-btn-box {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .cid-thXP0uH5Zh .mbr-section-subtitle {
     margin-top: 10px;
@@ -3557,6 +3562,29 @@ select:-webkit-autofill:focus {
     box-shadow: 10px 10px 19px 0 #191b1f;
     background: linear-gradient(167deg, #1e2024 0%, #23272b 100%);
     margin-left: auto;
+  }
+
+  .cid-thXP0uH5Zh .carousel-inner {
+    width: auto;
+  }
+
+  .cid-thXP0uH5Zh .carousel-indicators {
+    display: flex;
+  }
+
+  .cid-thXP0uH5Zh .thXP0uH5Zh-btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 8px 12px;
+    background: linear-gradient(167deg, #1e2024 0%, #23272b 100%);
+    margin-top: 20px;
+  }
+
+  .cid-thXP0uH5Zh .row>[class*="col"] {
+    padding-left: 13px;
+    padding-right: 13px;
   }
 }
 
@@ -3624,6 +3652,57 @@ select:-webkit-autofill:focus {
 /* .cid-thXP0uH5Zh .card-wrapper:hover .card-text {
   color: #ffffff !important;
 } */
+
+.cid-thXP0uH5Zh .carousel-item {
+  /* padding: 0;
+  margin: 0 auto; */
+}
+
+.cid-thXP0uH5Zh .carousel-control-next .mobi-mbri_icon_box {
+  rotate: -90deg;
+  padding: 18px 15px 17px 20px;
+  box-shadow: 10px 10px 19px 0 #191b1f;
+  background: linear-gradient(167deg, #1e2024 0%, #23272b 100%);
+  border-radius: 6px;
+}
+
+.cid-thXP0uH5Zh .carousel-control-prev .mobi-mbri_icon_box {
+  rotate: 90deg;
+  padding: 18px 20px 17px 15px;
+  box-shadow: 10px 10px 19px 0 #191b1f;
+  background: linear-gradient(167deg, #1e2024 0%, #23272b 100%);
+  border-radius: 6px;
+}
+
+.cid-thXP0uH5Zh .carousel-control-next,
+.cid-thXP0uH5Zh .carousel-control-prev {
+  position: relative;
+}
+
+.cid-thXP0uH5Zh .carousel-indicators {
+  bottom: -80px;
+}
+
+.cid-thXP0uH5Zh .carousel-indicators button {
+  max-width: 11px;
+  height: 11px;
+  width: 11px;
+  max-height: 11px;
+  margin: 10px;
+  background: linear-gradient(145deg, #1e2024, #23272b) !important;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: inset -1px -3px 3px -2px rgba(255, 255, 255, 0.2), inset 1px 4px 2px -3px rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: all 0.4s;
+}
+
+.cid-thXP0uH5Zh .carousel-indicators button.active,
+.cid-thXP0uH5Zh .carousel-indicators button:hover {
+  opacity: 1;
+  /* background: #ff014e !important; */
+  background: linear-gradient(52deg, #953ff7 0%, #696bfc 46.1%, #19c7fc 100%) !important;
+}
 
 .cid-thXP0uH5Zh .card-bg {
   position: absolute;
@@ -5504,4 +5583,29 @@ select:-webkit-autofill:focus {
 .rating-value {
   font-size: 16px;
   color: #a0a0a0;
+}
+
+
+/* Style for the close button */
+.about-close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto 0 auto;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(52deg, #953ff7 0%, #696bfc 46.1%, #19c7fc 100%);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.about-close-button:hover {
+  box-shadow: 10px 10px 19px 0 #191b1f;
+}
+
+.about-close-button svg {
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
 }

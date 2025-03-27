@@ -3,15 +3,12 @@ function updateClasses() {
   const elementsGroup = document.querySelectorAll(".jsTwo");
   // Отримуємо окремий елемент, якому треба додати інший клас
   const specialElement = document.querySelector(".jsOne");
-  // Отримуємо окремий елемент, якому треба додати інший клас
-  const specialElement2 = document.querySelector(".asd");
+  const specialElement2 = document.querySelector(".jsThree");
 
   // Клас, який треба додати до групи
   const groupClass = "carousel-item";
   // Клас, який треба додати до окремого елемента
   const specialClass = "carousel-inner";
-  // Клас, який треба додати до окремого елемента
-  const specialClass2 = "dsa";
 
   // Перевіряємо ширину екрану
   const isMobile = window.innerWidth <= 767;
@@ -24,10 +21,6 @@ function updateClasses() {
   // Додаємо або видаляємо клас для спеціального елемента
   if (specialElement) {
     specialElement.classList.toggle(specialClass, isMobile);
-  }
-  // Додаємо або видаляємо клас для спеціального елемента
-  if (specialElement2) {
-    specialElement2.classList.toggle(specialClass2, isMobile);
   }
 }
 
