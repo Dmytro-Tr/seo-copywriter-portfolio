@@ -32,8 +32,8 @@ window.addEventListener("DOMContentLoaded", updateClasses);
 document.addEventListener("DOMContentLoaded", function () {
   let dropdownItems = document.querySelectorAll(".dropdown-item");
   let carousel = new bootstrap.Carousel(document.getElementById("thXP0uH5Zh"));
-  
-  dropdownItems.forEach(item => {
+
+  dropdownItems.forEach((item) => {
     item.addEventListener("click", function (event) {
       event.preventDefault();
       let slideIndex = this.getAttribute("data-bs-slide-to");
