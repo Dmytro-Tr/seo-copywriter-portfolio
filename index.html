@@ -974,41 +974,37 @@
         </div>
       </div>
 
+      <div class="dropdown-center">
+        <button class="btn display-7" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Centered dropdown
+          <span class="mobi-mbri_icon_box">
+            <svg class="mobi-mbri_icon about-module-arrow" width="25" height="25" fill="url(#icon-gradient)">
+              <use href="./assets/images/icons.svg#icon-down-arrow"></use>
+            </svg>
+          </span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#Services-Sec1">Search Engine
+              Optimization</a></li>
+          <li><a class="dropdown-item" href="#Services-Sec2">Search Engine
+              Marketing</a></li>
+          <li><a class="dropdown-item" href="#Services-Sec3">Pay
+              Per Click</a></li>
+          <li><a class="dropdown-item" href="#Services-Sec4">Social
+              Media Marketing</a></li>
+          <li><a class="dropdown-item" href="#Services-Sec5">Content
+              Marketing</a></li>
+          <li><a class="dropdown-item" href="#Services-Sec6">Link
+              Building</a></li>
+          <li><a class="dropdown-item" href="#Services-Sec7">Analytics
+              Consultancy</a></li>
+          <li><a class="dropdown-item" href="#Services-Sec8">Conversion Rate
+              Optimization</a></li>
+        </ul>
+      </div>
       <div id="thXP0uH5Zh" class="carousel slide carousel-fade">
-        
-        
-        <div class="dropdown-center">
-          <button class="btn display-7" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="carouselDropdown" data-bs-target="#thXP0uH5Zh">
-            Centered dropdown
-            <span class="mobi-mbri_icon_box">
-              <svg class="mobi-mbri_icon about-module-arrow" width="25" height="25" fill="url(#icon-gradient)">
-                <use href="./assets/images/icons.svg#icon-down-arrow"></use>
-              </svg>
-            </span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="carouselDropdown">
-            <li><a class="dropdown-item" href="#Services-Sec1" data-slide-to="0" data-bs-slide-to="0">Search Engine
-                Optimization</a></li>
-            <li><a class="dropdown-item" href="#Services-Sec2" data-slide-to="1" data-bs-slide-to="1">Search Engine
-                Marketing</a></li>
-            <li><a class="dropdown-item" href="#Services-Sec3" data-slide-to="2" data-bs-slide-to="2">Pay
-                Per Click</a></li>
-            <li><a class="dropdown-item" href="#Services-Sec4" data-slide-to="3" data-bs-slide-to="3">Social
-                Media Marketing</a></li>
-            <li><a class="dropdown-item" href="#Services-Sec5" data-slide-to="4" data-bs-slide-to="4">Content
-                Marketing</a></li>
-            <li><a class="dropdown-item" href="#Services-Sec6" data-slide-to="5" data-bs-slide-to="5">Link
-                Building</a></li>
-            <li><a class="dropdown-item" href="#Services-Sec7" data-slide-to="6" data-bs-slide-to="6">Analytics
-                Consultancy</a></li>
-            <li><a class="dropdown-item" href="#Services-Sec8" data-slide-to="7" data-bs-slide-to="7">Conversion Rate
-                Optimization</a></li>
-          </ul>
-        </div>
-
-
         <div class="row card-row justify-content-start jsOne">
-          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 jsTwo d-block  active">
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 jsTwo d-block  active" data-bs-interval="10000">
             <div class="card-wrapper">
               <div class="card-bg"></div>
               <div class="card-box">
@@ -1671,422 +1667,438 @@
             </div>
           </div>
         </div>
+
         <div class="col-12 col-lg-7">
           <div class="tabs-main-container">
             <div class="tabs-main-wrap">
               <ul class="nav nav-tabs mb-0" role="tablist">
                 <li class="nav-item first mbr-fonts-style">
                   <a class="nav-link mbr-fonts-style show active display-7" role="tab" data-toggle="tab"
-                    data-bs-toggle="tab" href="#atabs1-e_tab0" aria-selected="true">
+                    data-bs-toggle="tab" href="#atabs1-e_tab0" aria-selected="true" data-tab-name="Static">
                     <strong>Static</strong>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" data-bs-toggle="tab"
-                    href="#atabs1-e_tab1" aria-selected="true">
+                  <a class="nav-link mbr-fonts-style display-7" role="tab" data-toggle="tab" data-bs-toggle="tab"
+                    href="#atabs1-e_tab1" aria-selected="false" data-tab-name="Standard">
                     <strong>Standard</strong>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" data-bs-toggle="tab"
-                    href="#atabs1-e_tab2" aria-selected="true">
+                  <a class="nav-link mbr-fonts-style display-7" role="tab" data-toggle="tab" data-bs-toggle="tab"
+                    href="#atabs1-e_tab2" aria-selected="false" data-tab-name="Premium">
                     <strong>Premium</strong>
                   </a>
                 </li>
               </ul>
-              <div class="tab-content">
-                <div id="tab1" class="tab-pane fade show active" role="tabpanel">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="pricing-header">
-                        <div class="card-text-wrap">
-                          <h5 class="card-title mbr-fonts-style display-4">
-                            <strong>Quis hendrerit dolor magna</strong>
-                          </h5>
-                          <h6 class="card-subtitle mbr-fonts-style mb-0 display-7">Pulvinar /
-                            Metus</h6>
-                        </div>
-                        <div class="card-text-label">
-                          <p class="card-label mbr-fonts-style display-5">$29.59</p>
-                        </div>
+              <!-- Current Tab Name Display (outside of navigation controls) -->
+              <div class="current-tab-display">
+                <h3 class="current-tab-name">Static</h3>
+              </div>
+            </div>
+            <div class="tab-content">
+              <div id="tab1" class="tab-pane fade show active" role="tabpanel">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="pricing-header">
+                      <div class="card-text-wrap">
+                        <h5 class="card-title mbr-fonts-style display-4">
+                          <strong>Quis hendrerit dolor magna</strong>
+                        </h5>
+                        <h6 class="card-subtitle mbr-fonts-style mb-0 display-7">Pulvinar /
+                          Metus</h6>
                       </div>
-                      <div class="pricing-body">
-                        <p class="mbr-text mbr-fonts-style mb-0 display-7">
-                          Ultricies leo integer malesuada nunc vel. Lectus mauris ultrices
-                          eros in cursus turpis massa
-                          tincidunt.
-                        </p>
-                        <div class="list-container">
-                          <div class="list-container-left">
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Ultricies integer</p>
+                      <div class="card-text-label">
+                        <p class="card-label mbr-fonts-style display-5">$29.59</p>
+                      </div>
+                    </div>
+                    <div class="pricing-body">
+                      <p class="mbr-text mbr-fonts-style mb-0 display-7">
+                        Ultricies leo integer malesuada nunc vel. Lectus mauris ultrices
+                        eros in cursus turpis massa
+                        tincidunt.
+                      </p>
+                      <div class="list-container">
+                        <div class="list-container-left">
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
                             </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Aenean euismod elementum</p>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Ultricies integer</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
                             </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Mattis pellentesque</p>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Aenean euismod elementum</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
                             </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Pellentesque habitant</p>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Mattis pellentesque</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
                             </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Tellus elementum sagittis</p>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Pellentesque habitant</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
                             </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Tellus elementum sagittis</p>
+                          </div>
 
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Vitae proin sagittis</p>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
                             </div>
-                          </div>
-                          <div class="list-container-right">
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Aliquam nulla facilisi</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Ipsum nunc aliquet</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Vulputate dignissim</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Lectus proin nibh</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Quam pellentesque nec</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Velit ut tortor pretium</p>
-                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Vitae proin sagittis</p>
                           </div>
                         </div>
-                      </div>
-                      <div class="pricing-footer">
-                        <div class="mbr-section-btn custom-section-btn">
-                          <a class="btn btn-black display-7" href="https://mobiri.se">
-                            <span class="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn"></span>
-                            ORDER NOW
-                          </a>
+                        <div class="list-container-right">
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Aliquam nulla facilisi</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Ipsum nunc aliquet</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Vulputate dignissim</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Lectus proin nibh</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Quam pellentesque nec</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Velit ut tortor pretium</p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-
-                <div id="tab2" class="tab-pane fade" role="tabpanel">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="pricing-header">
-                        <div class="card-text-wrap">
-                          <h5 class="card-title mbr-fonts-style display-4">
-                            <strong>Quis hendrerit dolor magna</strong>
-                          </h5>
-                          <h6 class="card-subtitle mbr-fonts-style mb-0 display-7">Pulvinar /
-                            Metus</h6>
-                        </div>
-                        <div class="card-text-label">
-                          <p class="card-label mbr-fonts-style display-5">$29.59</p>
-                        </div>
-                      </div>
-                      <div class="pricing-body">
-                        <p class="mbr-text mbr-fonts-style mb-0 display-7">
-                          Ultricies leo integer malesuada nunc vel. Lectus mauris ultrices
-                          eros in cursus turpis massa
-                          tincidunt.
-                        </p>
-                        <div class="list-container">
-                          <div class="list-container-left">
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Ultricies integer</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Aenean euismod elementum</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Mattis pellentesque</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Pellentesque habitant</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Tellus elementum sagittis</p>
-                            </div>
-
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Vitae proin sagittis</p>
-                            </div>
-                          </div>
-                          <div class="list-container-right">
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Aliquam nulla facilisi</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Ipsum nunc aliquet</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Vulputate dignissim</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Lectus proin nibh</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Quam pellentesque nec</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Velit ut tortor pretium</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="pricing-footer">
-                        <div class="mbr-section-btn custom-section-btn">
-                          <a class="btn btn-black display-7" href="https://mobiri.se">
-                            <span class="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn"></span>
-                            ORDER NOW
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="tab3" class="tab-pane fade" role="tabpanel">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="pricing-header">
-                        <div class="card-text-wrap">
-                          <h5 class="card-title mbr-fonts-style display-4">
-                            <strong>Quis hendrerit dolor magna</strong>
-                          </h5>
-                          <h6 class="card-subtitle mbr-fonts-style mb-0 display-7">Pulvinar /
-                            Metus</h6>
-                        </div>
-                        <div class="card-text-label">
-                          <p class="card-label mbr-fonts-style display-5">$29.59</p>
-                        </div>
-                      </div>
-                      <div class="pricing-body">
-                        <p class="mbr-text mbr-fonts-style mb-0 display-7">
-                          Ultricies leo integer malesuada nunc vel. Lectus mauris ultrices
-                          eros in cursus turpis massa
-                          tincidunt.
-                        </p>
-                        <div class="list-container">
-                          <div class="list-container-left">
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Ultricies integer</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Aenean euismod elementum</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Mattis pellentesque</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Pellentesque habitant</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Tellus elementum sagittis</p>
-                            </div>
-
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Vitae proin sagittis</p>
-                            </div>
-                          </div>
-                          <div class="list-container-right">
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Aliquam nulla facilisi</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Ipsum nunc aliquet</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Vulputate dignissim</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Lectus proin nibh</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Quam pellentesque nec</p>
-                            </div>
-                            <div class="list-item">
-                              <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                              </div>
-                              <p class="list-item-text mbr-fonts-style mb-0 display-7">
-                                Velit ut tortor pretium</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="pricing-footer">
-                        <div class="mbr-section-btn custom-section-btn">
-                          <a class="btn btn-black display-7" href="https://mobiri.se">
-                            <span class="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn"></span>
-                            ORDER NOW
-                          </a>
-                        </div>
+                    <div class="pricing-footer">
+                      <div class="mbr-section-btn custom-section-btn">
+                        <a class="btn btn-black display-7" href="https://mobiri.se">
+                          <span class="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn"></span>
+                          ORDER NOW
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+              <div id="tab2" class="tab-pane fade" role="tabpanel">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="pricing-header">
+                      <div class="card-text-wrap">
+                        <h5 class="card-title mbr-fonts-style display-4">
+                          <strong>Quis hendrerit dolor magna</strong>
+                        </h5>
+                        <h6 class="card-subtitle mbr-fonts-style mb-0 display-7">Pulvinar /
+                          Metus</h6>
+                      </div>
+                      <div class="card-text-label">
+                        <p class="card-label mbr-fonts-style display-5">$29.69</p>
+                      </div>
+                    </div>
+                    <div class="pricing-body">
+                      <p class="mbr-text mbr-fonts-style mb-0 display-7">
+                        Ultricies leo integer malesuada nunc vel. Lectus mauris ultrices
+                        eros in cursus turpis massa
+                        tincidunt.
+                      </p>
+                      <div class="list-container">
+                        <div class="list-container-left">
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Ultricies integer</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Aenean euismod elementum</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Mattis pellentesque</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Pellentesque habitant</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Tellus elementum sagittis</p>
+                          </div>
+
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Vitae proin sagittis</p>
+                          </div>
+                        </div>
+                        <div class="list-container-right">
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Aliquam nulla facilisi</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Ipsum nunc aliquet</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Vulputate dignissim</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Lectus proin nibh</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Quam pellentesque nec</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Velit ut tortor pretium</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pricing-footer">
+                      <div class="mbr-section-btn custom-section-btn">
+                        <a class="btn btn-black display-7" href="https://mobiri.se">
+                          <span class="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn"></span>
+                          ORDER NOW
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button> -->
-              
+
+              <div id="tab3" class="tab-pane fade" role="tabpanel">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="pricing-header">
+                      <div class="card-text-wrap">
+                        <h5 class="card-title mbr-fonts-style display-4">
+                          <strong>Quis hendrerit dolor magna</strong>
+                        </h5>
+                        <h6 class="card-subtitle mbr-fonts-style mb-0 display-7">Pulvinar /
+                          Metus</h6>
+                      </div>
+                      <div class="card-text-label">
+                        <p class="card-label mbr-fonts-style display-5">$29.79</p>
+                      </div>
+                    </div>
+                    <div class="pricing-body">
+                      <p class="mbr-text mbr-fonts-style mb-0 display-7">
+                        Ultricies leo integer malesuada nunc vel. Lectus mauris ultrices
+                        eros in cursus turpis massa
+                        tincidunt.
+                      </p>
+                      <div class="list-container">
+                        <div class="list-container-left">
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Ultricies integer</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Aenean euismod elementum</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Mattis pellentesque</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Pellentesque habitant</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Tellus elementum sagittis</p>
+                          </div>
+
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Vitae proin sagittis</p>
+                          </div>
+                        </div>
+                        <div class="list-container-right">
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Aliquam nulla facilisi</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Ipsum nunc aliquet</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Vulputate dignissim</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Lectus proin nibh</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Quam pellentesque nec</p>
+                          </div>
+                          <div class="list-item">
+                            <div class="iconfont-wrapper">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                              Velit ut tortor pretium</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pricing-footer">
+                      <div class="mbr-section-btn custom-section-btn">
+                        <a class="btn btn-black display-7" href="https://mobiri.se">
+                          <span class="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn"></span>
+                          ORDER NOW
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Tab Navigation Controls with Circle Indicators -->
+              <div class="tab-navigation-controls">
+                <button class="tab-nav-btn tab-nav-prev" aria-label="Previous tab">
+                  <span class="nav-arrow">
+                    <svg class="mobi-mbri_icon about-module-arrow " width="25" height="25" fill="url(#icon-gradient)">
+                      <use href="./assets/images/icons.svg#icon-down-arrow"></use>
+                    </svg>
+                  </span>
+                </button>
+                <div class="tab-indicator">
+                  <span class="indicator-circle active" data-index="0"></span>
+                  <span class="indicator-circle" data-index="1"></span>
+                  <span class="indicator-circle" data-index="2"></span>
+                </div>
+                <button class="tab-nav-btn tab-nav-next" aria-label="Next tab">
+                  <span class="nav-arrow">
+                    <svg class="mobi-mbri_icon about-module-arrow " width="25" height="25" fill="url(#icon-gradient)">
+                      <use href="./assets/images/icons.svg#icon-down-arrow"></use>
+                    </svg>
+                  </span>
+                </button>
+
+              </div>
             </div>
           </div>
         </div>
+
+
       </div>
     </div>
   </section>
