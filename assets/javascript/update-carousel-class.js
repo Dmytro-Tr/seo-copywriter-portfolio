@@ -27,3 +27,17 @@ function updateClasses() {
 // Виконуємо функцію при завантаженні сторінки та зміні розміру вікна
 window.addEventListener("resize", updateClasses);
 window.addEventListener("DOMContentLoaded", updateClasses);
+
+// Carousel Dropdown
+document.addEventListener("DOMContentLoaded", function () {
+  let dropdownItems = document.querySelectorAll(".dropdown-item");
+  let carousel = new bootstrap.Carousel(document.getElementById("thXP0uH5Zh"));
+  
+  dropdownItems.forEach(item => {
+    item.addEventListener("click", function (event) {
+      event.preventDefault();
+      let slideIndex = this.getAttribute("data-bs-slide-to");
+      carousel.to(slideIndex);
+    });
+  });
+});
