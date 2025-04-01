@@ -5206,3 +5206,20 @@ select:-webkit-autofill:focus {
 .nav-arrow {
   font-weight: bold;
 }
+
+.cid-thXQ3qOT1c .about-close-button {
+  border-radius: 24px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(52deg, #953ff7 0%, #696bfc 46.1%, #19c7fc 100%);
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.cid-thXQ3qOT1c .about-close-button:hover {
+  background: linear-gradient(72deg, #953ff7 29.9%, #19c7fc 100%);
+}
+
+.cid-thXQ3qOT1c .about-close-button svg {
+  color: #ffffff;
+}
