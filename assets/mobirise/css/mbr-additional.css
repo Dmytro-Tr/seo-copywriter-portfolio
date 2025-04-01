@@ -972,12 +972,12 @@ a {
   background: linear-gradient(52deg, #953ff7 0%, #696bfc 46.1%, #19c7fc 100%) !important;
   text-transform: uppercase;
   padding: 12px 60px;
-  transition: all 0.3 ease;
+  transition: all 0.3s ease;
 }
 
 .cid-thXKMbTk5w .header-btn {
   border-radius: 10px;
-  padding: 12px 40px;
+  /* padding: 12px 40px; */
   border: none;
 }
 
@@ -999,6 +999,12 @@ a {
   .cid-thXKMbTk5w .header-btn {
     display: block;
     margin-top: auto;
+  }
+
+  .cid-thXKMbTk5w .header-btn {
+    border-radius: 10px;
+    padding: 12px 40px;
+    border: none;
   }
 }
 
